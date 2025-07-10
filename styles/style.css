@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     font-family: "Raleway", sans-serif;
+    color: #252432;
 }
 
 .raleway_regular {
@@ -27,6 +28,14 @@
     padding: 12px 36px;
     border-radius: 10px;
 }
+
+.b12_cm_title {
+    font-size: 42px;
+    font-weight: bold;
+}
+/* .b12_secondary_color {
+    background: #D6DDED; 
+} */
 
 /* Header section style here... */
 
@@ -53,4 +62,52 @@
     font-size: 65px;
     font-weight: bold;
     margin: 150px 0 40px 0;
+}
+
+/* Action section style here .... */
+
+.b12_action_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 116px 0;
+}
+.b12_action_left p {
+    font-size: 24px;
+    font-weight: normal;
+    color: #252432;
+    opacity: 50%;
+    width: 70%;
+    margin: 23px 0;
+    line-height: 30px;
+}
+
+.b12_action_section img { border-radius: 48px; }
+
+/* Productive users section here .... */
+
+.b12_users_section {
+    background: #EDEDFF;
+    padding: 50px 142px;
+    border-radius: 24px;
+    text-align: center;
+    margin-bottom: 138px;
+}
+.b12_users_section h3 {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.b12_users_perform { display: flex; gap: 158px; }
+
+.b12_users_servay h2 {
+    color: #4E47FF;
+    font-family: inter;
+    font-size: 80px;
+}
+.b12_users_servay p {
+    font-family: inter;
+    font-size: 20px;
+    color: black;
+    opacity: 50%;
 }
