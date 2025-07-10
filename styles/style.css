@@ -1,0 +1,56 @@
+/* Common Styles */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+.raleway_regular {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.b12_container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.b12_cm_button {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: #4E47FF;
+    text-transform: capitalize;
+    border: none;
+    padding: 12px 36px;
+    border-radius: 10px;
+}
+
+/* Header section style here... */
+
+.b12_header {
+    background: url('../Assets/Hero-bg.png');
+    min-height: 658px;
+}
+
+.b12_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.b12_nav img {
+    width: 95px;
+    height: 95px;
+}
+
+.b12_hero_area {
+    text-align: center;
+}
+.b12_hero_area h2 {
+    font-size: 65px;
+    font-weight: bold;
+    margin: 150px 0 40px 0;
+}
