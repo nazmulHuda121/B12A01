@@ -5,6 +5,7 @@
     margin: 0;
     font-family: "Raleway", sans-serif;
     color: #252432;
+    font-weight: normal;
 }
 
 .raleway_regular {
@@ -29,6 +30,13 @@
     border-radius: 10px;
 }
 
+.b12_cm_button:hover { 
+    color: #1E1E1E; 
+    background: rgb(228, 228, 37); 
+    cursor: pointer;
+    animation-delay: 10s;
+}
+
 .b12_cm_title {
     font-size: 42px;
     font-weight: bold;
@@ -44,13 +52,13 @@
     min-height: 658px;
 }
 
-.b12_nav {
+.b12_header_nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 30px;
 }
-.b12_nav img { width: 95px; height: 95px; }
+.b12_header_nav img { width: 95px; height: 95px; }
 .b12_hero_area { text-align: center; }
 
 .b12_hero_area h2 {
@@ -133,4 +141,46 @@
 }
 .b12_user_info img { border-radius: 50%; }
 .b12_user h5 { color: #757575; font-size: 16px; font-weight: 500; }
-.b12_user p { color: #B3B3B3; font-size: 16px; }
+
+.b12_footer_para, 
+.b12_user p,
+.b12_main_menu ul li a { 
+    color: #B3B3B3; 
+    font-size: 16px; 
+    text-align: center; 
+    font-family: inter;
+}
+
+/* Optional section */
+
+/* Comments section start here ... */
+
+
+/* Footer section style start here ... */
+
+.b12_footer {
+    max-width: 530px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 104px 0;
+}
+
+.b12_footer img {
+    width: 150px;
+    height: 150px;
+}
+.b12_main_menu { margin-top: 20px; }
+.b12_main_menu ul {
+    display: flex;
+    gap: 48px;
+}
+.b12_main_menu ul li {
+    list-style: none;
+}
+.b12_main_menu ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.b12_main_menu ul li a:hover { color: #1E1E1E; }
