@@ -8,12 +8,6 @@
     font-weight: normal;
 }
 
-/* .raleway_regular {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-} */
-
 .b12_container {
     max-width: 1140px;
     margin: 0 auto;
@@ -28,13 +22,15 @@
     border: none;
     padding: 12px 36px;
     border-radius: 10px;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+
 }
 
 .b12_cm_button:hover { 
     color: #1E1E1E; 
     background: rgb(228, 228, 37); 
     cursor: pointer;
-    animation-delay: 10s;
+    transform: scale(1.05);
 }
 
 .b12_cm_title {
@@ -129,11 +125,12 @@
 }
 .b12_single_user h4 {
     color: #1E1E1E;
+    font-family: inter;
     font-size: 24px;
     font-weight: 500;
     margin: 24px 0 8px 0;
 }
-.b12_single_user p { color: #1E1E1E; font-size: 16px; }
+.b12_single_user p { color: #1E1E1E; font-size: 16px; font-family: inter; }
 .b12_user_info {
     display: flex;
     align-items: center;
