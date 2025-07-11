@@ -33,9 +33,9 @@
     font-size: 42px;
     font-weight: bold;
 }
-/* .b12_secondary_color {
-    background: #D6DDED; 
-} */
+.b12_bg {
+    background: #F5F8FF; 
+}
 
 /* Header section style here... */
 
@@ -50,14 +50,9 @@
     justify-content: space-between;
     padding-top: 30px;
 }
-.b12_nav img {
-    width: 95px;
-    height: 95px;
-}
+.b12_nav img { width: 95px; height: 95px; }
+.b12_hero_area { text-align: center; }
 
-.b12_hero_area {
-    text-align: center;
-}
 .b12_hero_area h2 {
     font-size: 65px;
     font-weight: bold;
@@ -111,3 +106,31 @@
     color: black;
     opacity: 50%;
 }
+
+/* Challenging part for users review and feedback section here ... */
+
+.b12_users_review { text-align: center; }
+.b12_user_review_box { display: flex; gap: 20px; padding: 50px 0;}
+.b12_single_user { 
+    text-align: left; 
+    border: 1px solid #F2EDED;
+    padding: 25px;
+    border-radius: 14px;
+    background: #FFF;
+}
+.b12_single_user h4 {
+    color: #1E1E1E;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 24px 0 8px 0;
+}
+.b12_single_user p { color: #1E1E1E; font-size: 16px; }
+.b12_user_info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 24px;
+}
+.b12_user_info img { border-radius: 50%; }
+.b12_user h5 { color: #757575; font-size: 16px; font-weight: 500; }
+.b12_user p { color: #B3B3B3; font-size: 16px; }
